@@ -45,7 +45,7 @@ class MiniMaxPlayer(Player):
                 bestMove = move
         return bestScore, bestMove
 
-    # Sensores: getReward: retorna o valor de recompensa do estado atual
+    # Função de tranformação: getReward: retorna o valor de recompensa do estado atual
     # Aumenta o valor de recompensa para o jogador que está ganhando
     # Quando maior o número de peças em sequência, maior o valor de recompensa
     # Quando o jogador inimigo tem mais peças em sequência, diminui o valor de recompensa
